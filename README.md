@@ -3,7 +3,9 @@ Support in Ubuntu Linux for DavinciResolve with AMD GPU's
 
 Davinci Resolve only supports NVIDIA CUDA GPU's out the box, for AMD gpu's you are either required to install the AMDGPU-PRO drivers, or use ROCM instead.
 
-Those packages are supposed to grab the supported rocm repository, add yourself to the video group and installs the required udev rules
+Those packages are supposed to grab the supported rocm repository, add yourself to the video group and installs the required udev rules.
+
+So you only have to install those, then Davinci Resolve, and you will have a working environment.
 
 # Warning - Highly experimental packages, use those at your own risks. 
 
