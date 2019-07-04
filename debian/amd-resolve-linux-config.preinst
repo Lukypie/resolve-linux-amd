@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# Adding sudo users to the video group
+# Required for DavinciResolve to communicate to the kfd kernel interface used by Rocm
+
+for u in $(getent group sudo | sed -e "s/^.*://" -e "s/,/ /g"); do
+	adduser "$u" video >/dev/null || true
+done
+
+exit 0

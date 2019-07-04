@@ -1,0 +1,11 @@
+amd-resolve-linux (1.0-1ubuntu1) unstable; urgency=medium
+
+  * Second test release 
+
+ -- Luca Osvaldo Mastromatteo <lukycrociato@gmail.com>  Thu, 04 Jul 2019 15:29:59 +0200
+
+amd-resolve-linux (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Luca Osvaldo <haru@unknown>  Thu, 04 Jul 2019 13:09:18 +0200

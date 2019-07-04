@@ -1,0 +1,2 @@
+70-kfd.rules /etc/udev/rules.d/
+rocm.list /etc/apt/sources.list.d/

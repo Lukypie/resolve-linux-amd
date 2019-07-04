@@ -1,0 +1,19 @@
+Source: amd-resolve-linux
+Section: video
+Priority: optional
+Maintainer: Luca Osvaldo Mastromatteo <lukycrociato@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/Lukypie/resolve-linux-amd
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/amd-resolve-linux.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/amd-resolve-linux.git
+
+Package: amd-resolve-linux-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: WARNING:Experimental package, Contains the Rocm apt repository, udev rules and group add scripts 
+
+Package: amd-resolve-linux-deps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, rocm-libs, amd-resolve-linux-config
+Description: WARNING:Experimental package, Installs the required rocm dependencies
